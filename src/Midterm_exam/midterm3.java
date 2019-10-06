@@ -24,10 +24,10 @@ public class midterm3 {
             break;
 
 
-            while(true);
+        while(true);
 
-          }
-          }
+    }
+}
 }
 
 

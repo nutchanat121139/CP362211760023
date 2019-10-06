@@ -13,21 +13,21 @@ public class ex2 {
         int score = sc.nextInt();
 
 
-        if (score >= 80)
+        if (score >=80 && score <100 ) //80-100
             System.out.println("Grade A.");
-        else if (score >= 75)
+        else if (score >= 75 && score <80 ) //75-79
             System.out.println("Grade B+.");
-        else if (score >= 70)
+        else if (score >= 70 && score <75 ) //70-74
             System.out.println("Grade B.");
-        else if (score >= 65)
+        else if (score >= 65 && score <70 ) //65-69
             System.out.println("Grade C+.");
-        else if (score >= 60)
+        else if (score >= 60 && score <65 ) //60-64
             System.out.println("Grade C.");
-        else if (score >= 55)
+        else if (score >= 55 && score <60 ) //55-69
             System.out.println("Grade D+.");
-        else if (score >= 50)
+        else if (score >= 50 && score <55 ) //50-54
             System.out.println("Grade D.");
-        else
+        else if (score >=55 && score <0 )   //55-0
             System.out.println("Grade F.");
 
 
