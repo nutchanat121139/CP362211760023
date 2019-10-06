@@ -1,6 +1,9 @@
 package Midterm_exam;
 
 public class midterm3 {
+
+
+    public static void main(String[] args) {
     choice =Integer.parseInt(user_input);
    switch(choice)
     {

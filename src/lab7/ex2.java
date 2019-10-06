@@ -6,11 +6,14 @@ public class ex2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+          int score;
+
+          do{
 
         System.out.print("Enter your score," +
                 "and I will tell you geade:");
 
-        int score = sc.nextInt();
+         score = sc.nextInt();
 
 
         if (score >=80 && score <100 ) //80-100
@@ -27,10 +30,19 @@ public class ex2 {
             System.out.println("Grade D+.");
         else if (score >= 50 && score <55 ) //50-54
             System.out.println("Grade D.");
-        else if (score >=55 && score <0 )   //55-0
+        else if (score >=0 && score <50 )   //0-49
             System.out.println("Grade F.");
+        else
+            System.out.println("Please, enter score between 0-100.);
+
+
+    }while (! (score >=0 && score <=100));
 
 
 
+    }//main
+
+
+}//class
     }
 }

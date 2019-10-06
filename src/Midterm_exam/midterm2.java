@@ -1,8 +1,10 @@
 package Midterm_exam;
 
 public class midterm2 {
-#include <stdio.h>
-#include <conio.h>
+
+    public static void main(String[] args) {
+    #include <stdio.h>
+    #include <conio.h>
     main ()
     {
         int r,h,;
