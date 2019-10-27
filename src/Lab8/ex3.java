@@ -1,5 +1,7 @@
 package Lab8;
 
+import java.util.Random;
+
 public class ex3 {
 
     public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class ex3 {
 
         //input data in array 2D
         for (int i = 0; i < number.length; i++) {
+            Random sc;
             for (int j = 0; j < number[i].length; j++) {
                  System.out.print("Enter an integer [" + i +")[" + j + "]:");
                  number[i][j]= sc.nextInt();
@@ -37,7 +40,10 @@ public class ex3 {
         }
 
 
-    }//for i
+    }//main
+
+
+//class
 
 
 
