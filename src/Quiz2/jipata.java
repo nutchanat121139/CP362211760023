@@ -1,9 +1,8 @@
 package Quiz2;
 
 import java.util.Scanner;
-
-public class jipataSystem {
-
+public class jipata {
+    public class jipataSystem {
         private static void Continue(){
             Scanner sc = new Scanner(System.in);
             System.out.print("Do you want to Continue (Y/N): ");
@@ -163,4 +162,4 @@ public class jipataSystem {
             Continue();
         }
     }
-   }
+}
